@@ -1,5 +1,7 @@
 function stringChop(str, size) {
   // your code here
+	
+  if(!str) return [];
   const noOfChunks = Math.ceil(str.length/size);
   const chunks = new Array(noOfChunks);
 
